@@ -1,0 +1,34 @@
+# Ignorer l'environnement virtuel
+venv/
+env/
+ENV/
+
+# Ignorer les fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignorer les fichiers de distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Ignorer les fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignorer les logs
+*.log
+
+# Ignorer les fichiers de configuration locaux
+.env
+.env.local
+
+# Ignorer les fichiers Windows
+Thumbs.db
+desktop.ini
