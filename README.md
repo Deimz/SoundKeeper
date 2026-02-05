@@ -2,13 +2,13 @@
 
 <div align="center">
 
-![GitHub release](https://img.shields.io/github/v/release/yourusername/soundkeeper)
-![License](https://img.shields.io/github/license/yourusername/soundkeeper)
+![GitHub release](https://img.shields.io/github/v/release/Deimz/SoundKeeper)
+![License](https://img.shields.io/github/license/Deimz/SoundKeeper)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 
 **Keep your Bluetooth audio devices connected and active**
 
-[Download Latest Release](https://github.com/yourusername/soundkeeper/releases/latest) | [Report Bug](https://github.com/yourusername/soundkeeper/issues) | [Request Feature](https://github.com/yourusername/soundkeeper/issues)
+[Download Latest Release](https://github.com/Deimz/SoundKeeper/releases/latest) | [Report Bug](https://github.com/Deimz/SoundKeeper/issues) | [Request Feature](https://github.com/Deimz/SoundKeeper/issues)
 
 </div>
 
@@ -34,7 +34,7 @@ Many Bluetooth audio devices, especially those designed for TVs like Samsung sou
 
 ### Option 1: Download Pre-built Executable (Recommended)
 
-1. Go to the [**Releases page**](https://github.com/yourusername/soundkeeper/releases/latest)
+1. Go to the [**Releases page**](https://github.com/Deimz/SoundKeeper/releases/latest)
 2. Download `SoundKeeper.exe` from the latest release
 3. Run the executable - no installation required!
 4. *Optional:* Right-click the system tray icon and enable "Launch at Startup"
@@ -49,7 +49,7 @@ Many Bluetooth audio devices, especially those designed for TVs like Samsung sou
 
 ```powershell
 # Clone the repository
-git clone https://github.com/yourusername/soundkeeper.git
+git clone https://github.com/Deimz/SoundKeeper.git
 cd soundkeeper
 
 # Create virtual environment
@@ -158,10 +158,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Audio handling powered by [sounddevice](https://python-sounddevice.readthedocs.io/)
 - Icon design inspired by Bluetooth connectivity
 
-## � Support
+## 💬 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/soundkeeper/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/soundkeeper/discussions)
+- **Issues:** [GitHub Issues](https://github.com/Deimz/SoundKeeper/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/Deimz/SoundKeeper/discussions)
 
 ---
 
