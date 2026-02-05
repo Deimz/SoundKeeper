@@ -14,32 +14,41 @@
 
 ---
 
-## � About
+## 📖 About
 
-**SoundKeeper** is a lightweight Windows application that prevents Bluetooth audio devices (soundbars, speakers, headphones) from automatically entering standby mode due to inactivity. 
+**SoundKeeper** is a lightweight Windows application that prevents Bluetooth audio devices from automatically entering standby mode due to inactivity. 
 
-Many Bluetooth audio devices, especially those designed for TVs like Samsung soundbars, automatically disconnect or enter standby mode after ~60 seconds of silence. This can be frustrating when using them with a PC. SoundKeeper solves this problem by playing imperceptible audio signals at regular intervals, keeping your device active and connected.
+Many Bluetooth audio devices (soundbars, speakers, headphones) automatically disconnect or enter standby mode after ~60 seconds of silence. This is especially common with devices originally designed for TVs or with aggressive power-saving features. SoundKeeper solves this problem by playing imperceptible audio signals at regular intervals, keeping your device active and connected without any audible sound.
 
 ## ✨ Features
 
-- � **Imperceptible Audio** - Plays white noise at extremely low volume (completely inaudible)
+- 🔇 **Imperceptible Audio** - Plays white noise at extremely low volume (completely inaudible)
 - ⏱️ **Smart Timing** - Sends keep-alive signals every 55 seconds (before typical 60s timeout)
 - 🎯 **System Tray Integration** - Minimalist interface accessible from the taskbar
 - ✅ **Easy Toggle** - Enable/disable with a single click
 - 🚀 **Startup Option** - Configure to launch automatically with Windows
-- �️ **Single Instance** - Prevents multiple instances from running simultaneously
+- 🛡️ **Single Instance** - Prevents multiple instances from running simultaneously
 - 🪶 **Lightweight** - Minimal resource usage (~25MB RAM)
 
-## � Download & Installation
+## 📥 Download & Installation
 
-### Option 1: Download Pre-built Executable (Recommended)
+### 💻 For Regular Users (Recommended)
+
+**No Python or programming knowledge required!**
 
 1. Go to the [**Releases page**](https://github.com/Deimz/SoundKeeper/releases/latest)
 2. Download `SoundKeeper.exe` from the latest release
-3. Run the executable - no installation required!
-4. *Optional:* Right-click the system tray icon and enable "Launch at Startup"
+3. Double-click the executable - no installation needed!
+4. A green Bluetooth icon will appear in your system tray
+5. *Optional:* Right-click the icon and enable "Launch at Startup" to run automatically
 
-### Option 2: Run from Source
+That's it! Your Bluetooth device will now stay connected.
+
+---
+
+### 👨‍💻 For Developers (Run from Source)
+
+If you want to modify the code or contribute to the project:
 
 **Requirements:**
 - Python 3.7 or higher
@@ -50,7 +59,7 @@ Many Bluetooth audio devices, especially those designed for TVs like Samsung sou
 ```powershell
 # Clone the repository
 git clone https://github.com/Deimz/SoundKeeper.git
-cd soundkeeper
+cd SoundKeeper
 
 # Create virtual environment
 python -m venv venv
@@ -81,12 +90,15 @@ Right-click the icon to access:
 - **🚀 Launch at Startup** - Register/unregister from Windows startup
 - **❌ Quit** - Exit the application
 
-### When to Use
+### Compatible Devices
 
-- ✅ **TV Soundbars** connected to PC via Bluetooth
-- ✅ **Bluetooth Speakers** that auto-disconnect
-- ✅ **Wireless Headphones** with aggressive power-saving
-- ✅ Any Bluetooth audio device with standby timeout issues
+SoundKeeper works with any Bluetooth audio device that has auto-standby/timeout features:
+
+- ✅ **Soundbars** (Samsung, LG, Sony, etc.) - Especially TV soundbars used with PCs
+- ✅ **Bluetooth Speakers** - Portable or desktop speakers with power-saving modes
+- ✅ **Wireless Headphones** - Any brand with aggressive auto-sleep features
+- ✅ **Home Theater Systems** - Bluetooth-enabled receivers and amplifiers
+- ✅ **Smart Speakers** - When used in Bluetooth mode
 
 ## ⚙️ Configuration
 
@@ -99,7 +111,7 @@ INTERVAL = 55          # Interval between signals (seconds)
 AMPLITUDE = 0.0001     # Sound volume (very low = imperceptible)
 ```
 
-## � Building from Source
+## 🔧 Building from Source
 
 To create your own executable:
 
@@ -156,7 +168,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with [pystray](https://github.com/moses-palmer/pystray) for system tray integration
 - Audio handling powered by [sounddevice](https://python-sounddevice.readthedocs.io/)
-- Icon design inspired by Bluetooth connectivity
+- AI generated icon ( Gemini )
 
 ## 💬 Support
 
