@@ -1,5 +1,7 @@
 # Ignorer l'environnement virtuel
 venv/
+.venv/
+.build-tmp/
 env/
 ENV/
 

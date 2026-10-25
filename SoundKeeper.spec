@@ -30,10 +30,11 @@ exe = EXE(
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,
+    manifest='SoundKeeper.manifest',
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['E:\\Analytics\\Projets\\Audiobar_KeepAlive\\icon.ico'],
+    icon=['icon.ico'],
 )
